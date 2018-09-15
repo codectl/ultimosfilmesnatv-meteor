@@ -1,10 +1,69 @@
-body{
+body {
   margin: 0;
+  background: #fff;
 }
 
-#header {
-  background: #000 url('/img/movie_tiles.jpg') repeat center top;
-  width: 100%;
-  height: 400px;
-  filter: blur(3px);
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.row {
+  display: flex;
+}
+
+.search-form-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-top: 20px;
+  z-index: 90;
+}
+
+form#search-form-1 {
+  .btn {
+    position: absolute;
+    width: 80px;
+    top: 0;
+    right: 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0;
+    padding: 0;
+    text-align: center !important;
+    height: 55px;
+  }
+
+  input {
+    height: 55px;
+  }
+
+}
+
+.btn-main, .btn-second {
+  color: #fff;
+  background: #02A388;
+}
+
+.btn-effect {
+  overflow: hidden;
+}
+
+.btn {
+  outline: 0;
+  padding: 0 15px;
+  position: relative;
+  font-weight: 600;
+  border: 0;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.btn, .btn i {
+  line-height: 35px;
+}
+
+.btn, .timeline span.timeline-step-btn {
+  font-size: 14px;
+  text-transform: uppercase;
 }
