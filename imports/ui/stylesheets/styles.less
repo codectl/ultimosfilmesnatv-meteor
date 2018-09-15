@@ -1,3 +1,7 @@
+* {
+  outline: none;
+}
+
 body {
   margin: 0;
   background: #fff;
@@ -32,12 +36,22 @@ form#search-form-1 {
     padding: 0;
     text-align: center !important;
     height: 55px;
+
+    i {
+      font-size: 22px;
+      line-height: 55px;
+    }
   }
 
   input {
     height: 55px;
   }
+}
 
+.form-control:focus {
+  outline: 0;
+  box-shadow: none;
+  border-color: #e3e3e3;
 }
 
 .btn-main, .btn-second {
@@ -57,10 +71,12 @@ form#search-form-1 {
   border: 0;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
-}
-
-.btn, .btn i {
   line-height: 35px;
+
+  i {
+    line-height: 35px;
+    padding-left: 3px;
+  }
 }
 
 .btn, .timeline span.timeline-step-btn {
