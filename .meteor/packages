@@ -24,3 +24,6 @@ less@2.7.12                   # Leaner CSS language
 meteortesting:mocha               # A package for writing and running your meteor app and package tests with mocha
 johanbrook:publication-collector  # Test a Meteor publication by collecting its output
 arillo:flow-router-helpers        # Template helpers for kadira:flow-router
+twbs:bootstrap
+jquery
+fortawesome:fontawesome
