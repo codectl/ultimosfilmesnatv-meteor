@@ -1,0 +1,28 @@
+<template name="date_filter">
+    <div class="row" id="date-filter">
+        <div class="col-sm-9">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div id="wrapper-filter">
+                        <ul id="filter-bar">
+                            <span class="pill"></span>
+                            <li class="filter-option option-1 active" data-target="option-1">Ultimos 7
+                                dias
+                            </li>
+                            <li class="filter-option option-2" data-target="option-2">Hoje</li>
+                            <li class="filter-option option-3" data-target="option-3">Ontem</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <select name="orderby" class="orderby">
+                        <option value="rating" selected="selected">Rating IMDb</option>
+                        <option value="year">Ano</option>
+                        <option value="date">Data de emissao</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</template>
