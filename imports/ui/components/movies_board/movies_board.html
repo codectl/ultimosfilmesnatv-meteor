@@ -9,7 +9,10 @@
                             <div class="movie-box-office">
                                 <table class="table">
                                     <tbody>
-                                    <tr>
+                                        {{#each movies}}
+                                            {{> movie}}
+                                        {{/each}}
+                                    <!-- <tr>
                                         <th class="thumb"><img src="images/box-office/1.png" alt="img"></th>
                                         <th>1.</th>
                                         <td>
@@ -78,7 +81,7 @@
                                         </td>
                                         <td class="week">4 Week</td>
                                         <td>1.5M</td>
-                                    </tr>
+                                    </tr> -->
                                     </tbody>
                                 </table>
                             </div>
