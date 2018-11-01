@@ -9,7 +9,9 @@
                             <div class="movie-box-office">
                                 <table class="table">
                                     <tbody>
-                                        {{#each movies}}
+                                        filmes
+                                        {{getMovies}}
+                                        {{#each getMovies}}
                                             {{> movie}}
                                         {{/each}}
                                     <!-- <tr>
