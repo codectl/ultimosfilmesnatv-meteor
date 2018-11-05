@@ -7,85 +7,9 @@
                     <div class="row">
                         <div class="col-lg-9 col-sm-12">
                             <div class="movie-box-office">
-                                <table class="table">
-                                    <tbody>
-                                        filmes
-                                        {{getMovies}}
-                                        {{#each getMovies}}
-                                            {{> movie}}
-                                        {{/each}}
-                                    <!-- <tr>
-                                        <th class="thumb"><img src="images/box-office/1.png" alt="img"></th>
-                                        <th>1.</th>
-                                        <td>
-                                            <h5 class="entry-title"><a href="#">Predator Dark Age</a></h5>
-                                            <ul class="entry-tag">
-                                                <li><a href="#">Drama</a></li>
-                                                <li><span>|</span><a href="#">SiFi</a></li>
-                                                <li><span>|</span><a href="#">Advemture</a></li>
-                                            </ul>
-                                        </td>
-                                        <td class="week">3 Week</td>
-                                        <td>2.5M</td>
-                                    </tr>
-                                    <tr>
-                                        <th class="thumb"><img src="images/box-office/2.png" alt="img"></th>
-                                        <th>2.</th>
-                                        <td>
-                                            <h5 class="entry-title"><a href="#">Dragon Fire </a></h5>
-                                            <ul class="entry-tag">
-                                                <li><a href="#">Action</a></li>
-                                                <li><span>|</span><a href="#">SiFi</a></li>
-                                                <li><span>|</span><a href="#">Advemture</a></li>
-                                            </ul>
-                                        </td>
-                                        <td class="week">2 Week</td>
-                                        <td>5.5M</td>
-                                    </tr>
-                                    <tr>
-                                        <th class="thumb"><img src="images/box-office/3.png" alt="img"></th>
-                                        <th>3.</th>
-                                        <td>
-                                            <h5 class="entry-title"><a href="#">Race: Ride For Alive</a></h5>
-                                            <ul class="entry-tag">
-                                                <li><a href="#">Crime</a></li>
-                                                <li><span>|</span><a href="#">SiFi</a></li>
-                                                <li><span>|</span><a href="#">Advemture</a></li>
-                                            </ul>
-                                        </td>
-                                        <td class="week">2 Week</td>
-                                        <td>2.0M</td>
-                                    </tr>
-                                    <tr>
-                                        <th class="thumb"><img src="images/box-office/4.png" alt="img"></th>
-                                        <th>4.</th>
-                                        <td>
-                                            <h5 class="entry-title"><a href="#">The Fade</a></h5>
-                                            <ul class="entry-tag">
-                                                <li><a href="#">Action</a></li>
-                                                <li><span>|</span><a href="#">SiFi</a></li>
-                                                <li><span>|</span><a href="#">Advemture</a></li>
-                                            </ul>
-                                        </td>
-                                        <td class="week">3 Week</td>
-                                        <td>8.5M</td>
-                                    </tr>
-                                    <tr>
-                                        <th class="thumb"><img src="images/box-office/5.png" alt="img"></th>
-                                        <th>5.</th>
-                                        <td>
-                                            <h5 class="entry-title"><a href="#">Curious: Part 2</a></h5>
-                                            <ul class="entry-tag">
-                                                <li><a href="#">Animation</a></li>
-                                                <li><span>|</span><a href="#">SiFi</a></li>
-                                                <li><span>|</span><a href="#">Advemture</a></li>
-                                            </ul>
-                                        </td>
-                                        <td class="week">4 Week</td>
-                                        <td>1.5M</td>
-                                    </tr> -->
-                                    </tbody>
-                                </table>
+                                {{#each movies}}
+                                    {{> movie}}
+                                {{/each}}
                             </div>
                         </div>
                         <div class="col-lg-3">

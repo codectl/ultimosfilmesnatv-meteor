@@ -1,17 +1,24 @@
 <template name="movie">
-        <tr>
-            AAAAA
-            <th class="thumb"><img src="images/box-office/1.png" alt="img"></th>
-            <th>1.</th>
-            <td>
-                <h5 class="entry-title"><a href="#">{{sapo_title}}</a></h5>
-                <ul class="entry-tag">
-                    <li><a href="#">Drama</a></li>
-                    <li><span>|</span><a href="#">SiFi</a></li>
-                    <li><span>|</span><a href="#">Advemture</a></li>
-                </ul>
-            </td>
-            <td class="week">3 Week</td>
-            <td>2.5M</td>
-        </tr>
+    <div class="row">
+        <div class="col-sm-4 thumb"><img src="{{poster}}" alt="img"></div>
+        <div class="col-sm-8 content">
+            <div class="row">
+                <div class="col-sm-10">
+                    <h5 class="entry-title"><a href="#">{{sapo_title}}</a></h5>
+                    <h6 class="details">{{duration}}&nbsp;&nbsp;‧&nbsp;&nbsp;
+                        <a href="#">{{genre}}</a>&nbsp;&nbsp;‧&nbsp;&nbsp;
+                        <a href="#">{{year}}</a>
+                    </h6>
+                </div>
+                <div class="col-sm-2 rating_imdb">
+                    <div class="rating_imdb_value">{{rating_imdb}}</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="pt_description">{{sapo_description}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
 </template>

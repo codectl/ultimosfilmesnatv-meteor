@@ -12,8 +12,7 @@ Template.movies_board.onCreated(function () {
 });
 
 Template.movies_board.helpers({
-    getMovies() {
-        console.log(Movies.find({}));
+    movies: function(){
         return Movies.find({});
     }
 });
